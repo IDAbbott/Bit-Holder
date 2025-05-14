@@ -115,7 +115,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 5
+                    "ioValue": 3
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -139,7 +139,7 @@
             "atomType": "Assembly",
             "name": "Assembly",
             "x": 0.6438679245283019,
-            "y": 0.20594059405940593,
+            "y": 0.20198019801980197,
             "uniqueID": 1747185919505,
             "ioValues": [
                 {
@@ -186,7 +186,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": -16
+                    "ioValue": -10
                 },
                 {
                     "name": "zDist",
@@ -198,7 +198,7 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.48396226415094334,
+            "x": 0.48726415094339626,
             "y": 0.788118811881188,
             "uniqueID": 1747186160313,
             "ioValues": [
@@ -212,7 +212,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": -8
+                    "ioValue": -20
                 },
                 {
                     "name": "zDist",
@@ -238,7 +238,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 16
+                    "ioValue": 20
                 },
                 {
                     "name": "zDist",
@@ -264,7 +264,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 8
+                    "ioValue": 10
                 },
                 {
                     "name": "zDist",
