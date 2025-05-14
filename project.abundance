@@ -14,7 +14,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1747185631204,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1747185919505
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -133,8 +138,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.6443396226415095,
-            "y": 0.22772277227722773,
+            "x": 0.6438679245283019,
+            "y": 0.20594059405940593,
             "uniqueID": 1747185919505,
             "ioValues": [
                 {
@@ -144,6 +149,22 @@
                 {
                     "name": "Shape 3",
                     "ioValue": 1747186156250
+                },
+                {
+                    "name": "Shape 4",
+                    "ioValue": 1747186162521
+                },
+                {
+                    "name": "Shape 5",
+                    "ioValue": 1747186160313
+                },
+                {
+                    "name": "Shape 6",
+                    "ioValue": 1747186163282
+                },
+                {
+                    "name": "Shape 7",
+                    "ioValue": 1747185874346
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -151,8 +172,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.4731132075471698,
-            "y": 0.4297029702970297,
+            "x": 0.4745283018867925,
+            "y": 0.4198019801980198,
             "uniqueID": 1747186156250,
             "ioValues": [
                 {
@@ -161,11 +182,11 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": -30
+                    "ioValue": 0
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 0
+                    "ioValue": -16
                 },
                 {
                     "name": "zDist",
@@ -183,7 +204,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": ""
+                    "ioValue": 1747185874346
                 },
                 {
                     "name": "xDist",
@@ -191,7 +212,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 0
+                    "ioValue": -8
                 },
                 {
                     "name": "zDist",
@@ -209,7 +230,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": ""
+                    "ioValue": 1747185874346
                 },
                 {
                     "name": "xDist",
@@ -217,7 +238,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 0
+                    "ioValue": 16
                 },
                 {
                     "name": "zDist",
@@ -229,13 +250,13 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.5316037735849056,
-            "y": 0.8138613861386139,
+            "x": 0.5754716981132075,
+            "y": 0.8039603960396039,
             "uniqueID": 1747186163282,
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": ""
+                    "ioValue": 1747185874346
                 },
                 {
                     "name": "xDist",
@@ -243,7 +264,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 0
+                    "ioValue": 8
                 },
                 {
                     "name": "zDist",
@@ -303,6 +324,36 @@
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.7882075471698113,
+            "y": 0.5742574257425742,
+            "uniqueID": 1747186402893,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1747185919505
+                },
+                {
+                    "name": "Resolution (dpi)",
+                    "ioValue": 96
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "Bit-Holder"
+                },
+                {
+                    "name": "File Type",
+                    "ioValue": "STEP"
+                }
+            ],
+            "description": "Export Atom, let's you choose a type of file to Export.",
+            "type": "STEP",
+            "resolution": 96,
+            "importIndex": 0,
+            "partName": "Bit-Holder"
         }
     ],
     "allConnectors": [
@@ -350,9 +401,72 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1747185874346,
+            "ap2ID": 1747186162521
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1747185874346,
+            "ap2ID": 1747186160313
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1747185874346,
+            "ap2ID": 1747186163282
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 7",
+            "ap2Primary": false,
+            "ap1ID": 1747185874346,
+            "ap2ID": 1747185919505
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1747185919505,
+            "ap2ID": 1747185631204
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1747185919505,
+            "ap2ID": 1747186402893
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "Shape 3",
             "ap2Primary": false,
             "ap1ID": 1747186156250,
+            "ap2ID": 1747185919505
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 5",
+            "ap2Primary": false,
+            "ap1ID": 1747186160313,
+            "ap2ID": 1747185919505
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 4",
+            "ap2Primary": false,
+            "ap1ID": 1747186162521,
+            "ap2ID": 1747185919505
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 6",
+            "ap2Primary": false,
+            "ap1ID": 1747186163282,
             "ap2ID": 1747185919505
         }
     ],
