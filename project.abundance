@@ -35,7 +35,7 @@
                 },
                 {
                     "name": "y length",
-                    "ioValue": 55
+                    "ioValue": 58
                 }
             ],
             "description": "Creates a new rectangle."
@@ -139,7 +139,7 @@
             "atomType": "Assembly",
             "name": "Assembly",
             "x": 0.6407079646017699,
-            "y": 0.18872549019607843,
+            "y": 0.21323529411764708,
             "uniqueID": 1747185919505,
             "ioValues": [
                 {
@@ -186,7 +186,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": -10
+                    "ioValue": -11
                 },
                 {
                     "name": "zDist",
@@ -212,7 +212,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": -20
+                    "ioValue": -22
                 },
                 {
                     "name": "zDist",
@@ -224,8 +224,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.41132075471698115,
-            "y": 0.801980198019802,
+            "x": 0.4026548672566372,
+            "y": 0.803921568627451,
             "uniqueID": 1747186162521,
             "ioValues": [
                 {
@@ -238,7 +238,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 20
+                    "ioValue": 22
                 },
                 {
                     "name": "zDist",
@@ -264,7 +264,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 10
+                    "ioValue": 11
                 },
                 {
                     "name": "zDist",
@@ -346,11 +346,11 @@
                 },
                 {
                     "name": "File Type",
-                    "ioValue": "STL"
+                    "ioValue": "STEP"
                 }
             ],
             "description": "Export Atom, let's you choose a type of file to Export.",
-            "type": "STL",
+            "type": "STEP",
             "resolution": 96,
             "importIndex": 0,
             "partName": "Bit-Holder"
