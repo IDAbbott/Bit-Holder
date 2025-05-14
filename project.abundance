@@ -133,16 +133,176 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.5037735849056604,
-            "y": 0.28316831683168314,
+            "x": 0.6443396226415095,
+            "y": 0.22772277227722773,
             "uniqueID": 1747185919505,
             "ioValues": [
                 {
                     "name": "Shape 1",
                     "ioValue": 1747185777525
+                },
+                {
+                    "name": "Shape 3",
+                    "ioValue": 1747186156250
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.4731132075471698,
+            "y": 0.4297029702970297,
+            "uniqueID": 1747186156250,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1747185874346
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": -30
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.48396226415094334,
+            "y": 0.788118811881188,
+            "uniqueID": 1747186160313,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.41132075471698115,
+            "y": 0.801980198019802,
+            "uniqueID": 1747186162521,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.5316037735849056,
+            "y": 0.8138613861386139,
+            "uniqueID": 1747186163282,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.6372641509433962,
+            "y": 0.8178217821782178,
+            "uniqueID": 1747186165487,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.7202830188679246,
+            "y": 0.8277227722772278,
+            "uniqueID": 1747186166538,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
@@ -180,6 +340,20 @@
             "ap2Primary": true,
             "ap1ID": 1747185792394,
             "ap2ID": 1747185874346
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1747185874346,
+            "ap2ID": 1747186156250
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 3",
+            "ap2Primary": false,
+            "ap1ID": 1747186156250,
+            "ap2ID": 1747185919505
         }
     ],
     "unitsKey": "MM",
