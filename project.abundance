@@ -31,11 +31,11 @@
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 12
+                    "ioValue": 16
                 },
                 {
                     "name": "y length",
-                    "ioValue": 44
+                    "ioValue": 55
                 }
             ],
             "description": "Creates a new rectangle."
@@ -43,8 +43,8 @@
         {
             "atomType": "RegularPolygon",
             "name": "RegularPolygon",
-            "x": 0.12405660377358489,
-            "y": 0.601980198019802,
+            "x": 0.12641509433962264,
+            "y": 0.6198019801980198,
             "uniqueID": 1747185696231,
             "ioValues": [
                 {
@@ -53,7 +53,7 @@
                 },
                 {
                     "name": "diameter",
-                    "ioValue": 6
+                    "ioValue": 7
                 }
             ],
             "description": "Creates a new regular polygon. Corners are on the diameter."
