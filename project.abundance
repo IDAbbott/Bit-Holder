@@ -53,7 +53,7 @@
                 },
                 {
                     "name": "diameter",
-                    "ioValue": 7.6
+                    "ioValue": 7.8
                 }
             ],
             "description": "Creates a new regular polygon. Corners are on the diameter."
@@ -328,8 +328,8 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.7920353982300886,
-            "y": 0.5661764705882353,
+            "x": 0.7973451327433628,
+            "y": 0.5563725490196079,
             "uniqueID": 1747186402893,
             "ioValues": [
                 {
