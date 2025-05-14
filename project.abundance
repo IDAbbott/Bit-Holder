@@ -53,7 +53,7 @@
                 },
                 {
                     "name": "diameter",
-                    "ioValue": 7
+                    "ioValue": 7.6
                 }
             ],
             "description": "Creates a new regular polygon. Corners are on the diameter."
@@ -138,8 +138,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.6438679245283019,
-            "y": 0.20198019801980197,
+            "x": 0.6407079646017699,
+            "y": 0.18872549019607843,
             "uniqueID": 1747185919505,
             "ioValues": [
                 {
@@ -328,8 +328,8 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.7882075471698113,
-            "y": 0.5742574257425742,
+            "x": 0.7920353982300886,
+            "y": 0.5661764705882353,
             "uniqueID": 1747186402893,
             "ioValues": [
                 {
@@ -346,11 +346,11 @@
                 },
                 {
                     "name": "File Type",
-                    "ioValue": "STEP"
+                    "ioValue": "STL"
                 }
             ],
             "description": "Export Atom, let's you choose a type of file to Export.",
-            "type": "STEP",
+            "type": "STL",
             "resolution": 96,
             "importIndex": 0,
             "partName": "Bit-Holder"
