@@ -17,7 +17,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": 1747185919505
+                    "ioValue": "be1b566b-e271-4bac-8839-912efa522342"
                 }
             ],
             "description": "Connect geometry here to make it available in the next level up. "
@@ -43,8 +43,8 @@
         {
             "atomType": "RegularPolygon",
             "name": "RegularPolygon",
-            "x": 0.12641509433962264,
-            "y": 0.6198019801980198,
+            "x": 0.06933962264150943,
+            "y": 0.6099009900990099,
             "uniqueID": 1747185696231,
             "ioValues": [
                 {
@@ -61,8 +61,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.21320754716981133,
-            "y": 0.6316831683168317,
+            "x": 0.15188679245283018,
+            "y": 0.6138613861386139,
             "uniqueID": 1747185733591,
             "ioValues": [
                 {
@@ -97,8 +97,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.30943396226415093,
-            "y": 0.594059405940594,
+            "x": 0.24481132075471698,
+            "y": 0.5841584158415841,
             "uniqueID": 1747185792394,
             "ioValues": [
                 {
@@ -123,8 +123,8 @@
         {
             "atomType": "Color",
             "name": "Color",
-            "x": 0.3872641509433963,
-            "y": 0.6079207920792079,
+            "x": 0.3240566037735849,
+            "y": 0.5801980198019802,
             "uniqueID": 1747185874346,
             "ioValues": [
                 {
@@ -172,8 +172,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.4745283018867925,
-            "y": 0.4198019801980198,
+            "x": 0.3915094339622642,
+            "y": 0.4079207920792079,
             "uniqueID": 1747186156250,
             "ioValues": [
                 {
@@ -198,8 +198,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.48726415094339626,
-            "y": 0.788118811881188,
+            "x": 0.46273584905660375,
+            "y": 0.5465346534653466,
             "uniqueID": 1747186160313,
             "ioValues": [
                 {
@@ -276,32 +276,6 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.6372641509433962,
-            "y": 0.8178217821782178,
-            "uniqueID": 1747186165487,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
-                }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
-        },
-        {
-            "atomType": "Move",
-            "name": "Move",
             "x": 0.7202830188679246,
             "y": 0.8277227722772278,
             "uniqueID": 1747186166538,
@@ -328,13 +302,13 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.7973451327433628,
-            "y": 0.5563725490196079,
+            "x": 0.9028301886792452,
+            "y": 0.788118811881188,
             "uniqueID": 1747186402893,
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1747185919505
+                    "ioValue": "be1b566b-e271-4bac-8839-912efa522342"
                 },
                 {
                     "name": "Resolution (dpi)",
@@ -354,6 +328,32 @@
             "resolution": 96,
             "importIndex": 0,
             "partName": "Bit-Holder"
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.7471698113207547,
+            "y": 0.1702970297029703,
+            "uniqueID": "be1b566b-e271-4bac-8839-912efa522342",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1747185919505
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 40
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
@@ -429,17 +429,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 1747185919505,
-            "ap2ID": 1747185631204
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap2Primary": false,
+            "ap2Primary": true,
             "ap1ID": 1747185919505,
-            "ap2ID": 1747186402893
+            "ap2ID": "be1b566b-e271-4bac-8839-912efa522342"
         },
         {
             "ap1Name": "geometry",
@@ -468,6 +461,20 @@
             "ap2Primary": false,
             "ap1ID": 1747186163282,
             "ap2ID": 1747185919505
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": "be1b566b-e271-4bac-8839-912efa522342",
+            "ap2ID": 1747185631204
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": "be1b566b-e271-4bac-8839-912efa522342",
+            "ap2ID": 1747186402893
         }
     ],
     "unitsKey": "MM",
